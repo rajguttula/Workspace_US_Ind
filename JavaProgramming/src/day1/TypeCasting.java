@@ -2,7 +2,7 @@ package day1;
 
 class Parent{
 	int name=1234;
-	
+	String n="Hari";
 	void m1() {
 		System.out.println("It is m1 from parent");
 	}
