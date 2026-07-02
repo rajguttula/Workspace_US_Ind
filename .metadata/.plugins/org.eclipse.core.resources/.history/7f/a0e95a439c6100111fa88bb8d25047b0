@@ -1,0 +1,26 @@
+package day1;
+
+import java.util.Scanner;
+
+public class ExceptionDemo {
+
+	public static void main(String[] args) {
+		System.out.println("Program is started..");
+		Scanner sc=new Scanner(System.in);
+		//Example1
+		/*System.out.println("Enter A Number:");
+		int n=sc.nextInt();
+		System.out.println(100/n);*/
+		
+		//Example2
+		int []a=new int[5];
+		System.out.println("Enter pos:");
+		int pos=sc.nextInt();
+		
+		
+		System.out.println("Program is compled");
+		System.out.println("program is exited");
+
+	}
+
+}

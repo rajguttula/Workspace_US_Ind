@@ -1,0 +1,15 @@
+package day1;
+
+public class OverLoadingMain {
+
+	void main(int a) {
+		System.out.println(a);
+	}
+	
+	void main(String s) {
+		System.out.println(s);
+	}
+	public static void main(String[] args) {
+		
+	}
+}

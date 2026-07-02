@@ -1,0 +1,22 @@
+package day1;
+
+import java.util.Scanner;
+
+public class ExceptionDemo {
+
+	public static void main(String[] args) {
+		System.out.println("Program is started..");
+		String s=null;
+		try {
+			System.out.println(s.length());
+		}
+		catch() {
+			
+		}
+		
+		System.out.println("Program is compled");
+		System.out.println("program is exited");
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package day1;
+class Bank{
+	double roi() {
+		return 0;
+	}
+}
+
+class ICICI extends Bank{
+	double roi() {
+		return 12.2;
+	}
+}
+
+class SBI extends Bank{
+	double roi() {
+		return 13.3;
+	}
+}
+
+public class Overloading {
+	public static void main(String []args) {
+		ICICI obj=new ICICI();
+		System.out.println(obj.roi());
+	}
+}

@@ -1,0 +1,30 @@
+package interface_example;
+
+interface Shape{
+	int length=20; //it is by default static and final
+	int width=30; 
+	
+	void circle(); //abstract method
+	
+	default void square() {
+		System.out.println("This is square..default method");
+	}
+	
+	static void rectangle() {
+		System.out.println("This is rectangle..static method");
+	}
+}
+
+public class InterfacDemo implements Shape {
+
+	public void circle() {
+		System.out.println("This is circle.. abstractor method");
+	}
+	public static void main(String[] args) {
+		Shape obj=new InterfacDemo();
+		obj.circle();
+		obj.square();
+		Shape.rectangle();
+	}
+
+}

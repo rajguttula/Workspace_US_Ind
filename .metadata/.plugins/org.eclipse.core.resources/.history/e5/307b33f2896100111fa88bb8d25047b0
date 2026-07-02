@@ -1,0 +1,40 @@
+package interface_example;
+
+interface Shape{
+	int length=20; //it is by default static and final
+	int width=30; 
+	
+	void circle(); //abstract method
+	
+	default void square() {
+		System.out.println("This is square..default method");
+	}
+	
+	static void rectangle() {
+		System.out.println("This is rectangle..static method");
+	}
+}
+
+public class InterfacDemo implements Shape {
+
+	public void circle() {
+		System.out.println("This is circle.. abstractor method");
+	}
+	
+	void triangle() {
+		System.out.println("This is triangle class..");
+	}
+	public static void main(String[] args) {
+		//Sceenario1
+		InterfacDemo obj=new InterfacDemo();
+		obj.circle();//abstract method
+		obj.square();//static method
+		Shape.rectangle();//abstract method we can call with using interface, since it is in intake not class, if it is in call we can call directly like rectangle();
+		//Sceenario1
+		Shape obj1=new InterfacDemo();
+		obj1.circle();//abstract method
+		obj1.square();//static method
+		Shape.rectangle();//abstract method we can call with using interface, since it is in intake not class, if it is in call we can call directly like rectangle();	
+	}
+
+}

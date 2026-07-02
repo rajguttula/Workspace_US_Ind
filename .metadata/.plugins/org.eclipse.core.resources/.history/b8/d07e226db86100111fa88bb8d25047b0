@@ -1,0 +1,12 @@
+package day1;
+
+public class ExceptionDemo {
+
+	public static void main(String[] args) throws InterruptedException {
+		int intValue=100;
+		int long=intValue;
+		System.out.println(long);
+
+	}
+
+}

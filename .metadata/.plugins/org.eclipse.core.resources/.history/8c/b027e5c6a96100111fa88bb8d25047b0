@@ -1,0 +1,26 @@
+package day1;
+
+import java.io.FileInputStream;
+import java.util.Scanner;
+
+public class ExceptionDemo {
+
+	public static void main(String[] args) {
+		System.out.println("Program is started..");
+		System.out.println("Program in progress");
+		
+		FileInputStream fs=new FileInputStream("")
+		
+		try {
+			Thread.sleep(5000);
+		}
+		catch(InterruptedException e) {
+			System.out.println();
+		}
+		
+		System.out.println("Program is compled");
+		System.out.println("program is exited");
+
+	}
+
+}

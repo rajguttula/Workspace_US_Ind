@@ -1,0 +1,26 @@
+package day1;
+
+public class StaticVariableExample {
+
+	int empNo;
+	String ename;
+	int deptNo=124;
+	
+	void display() {
+		System.out.println(empNo+" "+ename+" "+deptNo);
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StaticVariableExample obj1=new StaticVariableExample();
+		obj1.empNo=101;
+		obj1.ename="hari";
+		obj1.display();
+		
+		StaticVariableExample obj2=new StaticVariableExample();
+		obj2.empNo=101;
+		obj2.ename="hari";
+		obj2.display();
+	}
+
+}

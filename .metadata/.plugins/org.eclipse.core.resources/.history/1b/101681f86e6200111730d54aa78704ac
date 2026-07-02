@@ -1,0 +1,13 @@
+package day1;
+
+import java.util.ArrayList;
+
+public class CollactionsDemo {
+
+	public static void main(String[] args) {
+		ArrayList list=new ArrayList();
+		
+
+	}
+
+}

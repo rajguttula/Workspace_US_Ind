@@ -1,0 +1,15 @@
+package day1;
+
+public class ExceptionDemo {
+
+	public static void main(String[] args) throws InterruptedException {
+		int intValue=100;
+		long longVal=intValue;
+		System.out.println(longVal);
+		
+		float flotVal=12.23;
+		double doubleVal=floatVal;
+		System.out.println(doubleVal);
+	}
+
+}

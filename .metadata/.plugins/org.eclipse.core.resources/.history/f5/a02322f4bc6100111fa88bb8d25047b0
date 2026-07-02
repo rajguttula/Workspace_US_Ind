@@ -1,0 +1,30 @@
+package day1;
+
+class Parent{
+	int name="Raju";
+	
+	void m1() {
+		System.out.println("It is m1 from parent");
+	}
+}
+
+class Child extends Parent{
+	int n=100;
+	void m2() {
+		System.out.println("It is m2 from child");
+	}
+}
+
+public class TypeCasting {
+
+	public static void main(String []args) {
+		Parent p=new Child();
+		System.out.println(p.name);
+		p.m1();
+		
+		Parent p1=new Parent();
+		Child c=(Child)p1;
+		System.out.println(c.m2);
+		
+	}
+}

@@ -1,0 +1,21 @@
+package day1;
+
+public class Overloading {
+
+}
+
+class Bank{
+	double roi() {
+		return 0;
+	}
+}
+
+class ICICI{
+	double roi() {
+		return 12.2;
+	}
+}
+
+class SBI{
+	return 13.3;
+}

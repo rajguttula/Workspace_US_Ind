@@ -1,0 +1,17 @@
+package day1;
+
+import java.util.Scanner;
+
+public class ExceptionDemo {
+
+	public static void main(String[] args) {
+		System.out.println("Program is started..");
+		System.out.println("Program in progress");
+		Thread.sleep(5000);
+		
+		System.out.println("Program is compled");
+		System.out.println("program is exited");
+
+	}
+
+}

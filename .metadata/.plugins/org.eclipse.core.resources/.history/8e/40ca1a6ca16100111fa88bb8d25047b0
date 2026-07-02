@@ -1,0 +1,51 @@
+package day1;
+
+import java.util.Scanner;
+
+public class ExceptionDemo {
+
+	public static void main(String[] args) {
+		System.out.println("Program is started..");
+		Scanner sc=new Scanner(System.in);
+		//Example1
+		System.out.println("Enter A Number:");
+		int n=sc.nextInt();
+		int div=0;
+		try {
+			div=100/n;//ArithmeticException
+			System.out.println(div);
+		}
+		catch(ArithmeticException e) {
+			System.out.println("Invalid Data:"+e.getMessage());
+		}
+		
+		//Example2
+		int []a=new int[5];
+		System.out.println("Enter Position [0-4]:");
+		int pos=sc.nextInt();
+		
+		System.out.println("Enter Value:");
+		int val=sc.nextInt();
+		try {
+			a[pos]=val;//ArrayIndexOutOfBoundsException
+			System.out.println("Array value:"+a[pos]);
+		}
+		catch(ArrayIndexOutOfBoundsException e) {
+			System.out.println(e.getMessage());
+		}
+		
+		//Example3
+		/*String s="Raju";
+		int n=Integer.parseInt(s);//NumberFormatException
+		System.out.println(n);*/
+		
+		//Example4
+		/*String name=null;
+		System.out.println(name.length());//NullPointerException
+		*/
+		System.out.println("Program is compled");
+		System.out.println("program is exited");
+
+	}
+
+}

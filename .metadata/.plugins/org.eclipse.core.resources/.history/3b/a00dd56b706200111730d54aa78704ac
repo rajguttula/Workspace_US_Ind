@@ -1,0 +1,22 @@
+package day1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollactionsDemo {
+
+	public static void main(String[] args) {
+		ArrayList mylist=new ArrayList();
+		mylist.add(100);
+		mylist.add(12.23);
+		mylist.add("Raju");
+		mylist.add("a");
+		mylist.add(null);
+		mylist.add(true);
+		mylist.add(null);
+		System.out.println(mylist.size());
+		
+
+	}
+
+}

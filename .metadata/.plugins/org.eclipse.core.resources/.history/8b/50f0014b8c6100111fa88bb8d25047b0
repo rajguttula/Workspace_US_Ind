@@ -1,0 +1,8 @@
+package day1;
+
+public class c2 {
+	String name="Raju"
+	void m3() {
+		System.out.println("It is from class 2");
+	}
+}

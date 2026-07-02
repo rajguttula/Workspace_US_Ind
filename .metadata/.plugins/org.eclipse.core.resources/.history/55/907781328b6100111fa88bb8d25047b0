@@ -1,0 +1,6 @@
+package day1;
+
+public class c1 implements I1,I2 {
+	int z=300;
+	
+}

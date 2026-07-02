@@ -1,0 +1,44 @@
+package day1;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class CollactionsDemo {
+
+	public static void main(String[] args) {
+		ArrayList mylist=new ArrayList();
+		mylist.add(100);
+		mylist.add(12.23);
+		mylist.add("Raju");
+		mylist.add("a");
+		mylist.add(null);
+		mylist.add(true);
+		mylist.add(100);
+		mylist.add(null);
+		System.out.println("Size of the ArrayList:"+mylist.size());
+		System.out.println("Data Of List:"+mylist);
+		mylist.remove(3);
+		System.out.println("Data Of List:"+mylist);
+		mylist.add("Kumar");
+		System.out.println("Data Of List:"+mylist);
+		mylist.set(3, "A");
+		System.out.println("Data Of List:"+mylist);
+		System.out.println(mylist.get(2));
+		//using loop:
+		for(int i=0;i<mylist.size();i++) {
+			System.out.println(mylist.get(i));
+		}
+		//using for each
+		for(Object x:mylist){
+			System.out.println(x);
+		}
+		//using iterator, it is a child class from list, need use from java.util 
+		Iterator it=mylist.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		
+	}
+
+}

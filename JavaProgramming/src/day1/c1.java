@@ -1,0 +1,22 @@
+package day1;
+
+public class c1 extends c2 implements I1,I2 {
+	int z=300;
+	
+	public void m1() {
+		System.out.println(x);
+		System.out.println(name);
+	}
+	public void m2() {
+		System.out.println(y);
+	}
+	
+	
+	
+	public static void main(String[]args) {
+		c1 obj=new c1();
+		obj.m1();
+		obj.m2();
+		
+	}
+}

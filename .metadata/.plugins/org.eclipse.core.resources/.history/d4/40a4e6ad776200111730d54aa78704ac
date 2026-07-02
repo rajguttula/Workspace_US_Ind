@@ -1,0 +1,30 @@
+package day1;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class CollectionDemo_HashSet {
+
+	public static void main(String[] args) {
+		HashSet myset=new HashSet();
+		//Set myset=new HashSet();
+		//HashSet<String> myset=new HashSet<String>();
+		myset.add(100);
+		myset.add(12.23);
+		myset.add("Raju");
+		myset.add("A");
+		myset.add(100);
+		myset.add(true);
+		myset.add(null);
+		myset.add("A");
+		myset.add(null);
+		System.out.println(myset);
+		myset.remove(12.23);
+		System.out.println(myset);
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+package day1;
+
+public class FirstJavaClass {
+
+	public static void main(string args[]) {
+		
+	}
+}

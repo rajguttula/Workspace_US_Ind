@@ -1,0 +1,44 @@
+package day1;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class CollectionDemo_HashSet {
+
+	public static void main(String[] args) {
+		HashSet myset=new HashSet();
+		//Set myset=new HashSet();
+		//HashSet<String> myset=new HashSet<String>();
+		myset.add(100);
+		myset.add(12.23);
+		myset.add("Raju");
+		myset.add("A");
+		myset.add(100);
+		myset.add(true);
+		myset.add(null);
+		myset.add("A");
+		myset.add(null);
+		System.out.println(myset);
+		myset.remove(12.23);
+		System.out.println(myset);
+		ArrayList al=new ArrayList(myset);
+		//to access specific element
+		System.out.println(al.get(2));
+		//reading all the using for each
+		for(Object x:myset) 
+		{
+		System.out.println(x);
+		}
+		//using interator
+		Iterator it=myset.iterator();
+		while(it.hasNext()) {
+			System.out.println(it.next());
+		}
+		//to clear all the elemtns
+		myset.clear();
+		System.out.println(myset.isEmpty());
+	}
+
+}

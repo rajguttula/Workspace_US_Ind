@@ -1,0 +1,20 @@
+package interface_example;
+
+interface Shape{
+	int length=20; //it is by default static and final
+	int width=30; 
+	
+	void circle();
+	default void square() {
+		
+	}
+}
+
+public class InterfacDemo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

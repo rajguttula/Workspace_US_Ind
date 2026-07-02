@@ -1,0 +1,10 @@
+package interface_example;
+
+public class Interfac_exp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

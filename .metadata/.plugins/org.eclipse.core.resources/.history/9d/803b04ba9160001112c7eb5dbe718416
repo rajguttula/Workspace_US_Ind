@@ -1,0 +1,10 @@
+package encapsulations;
+
+public class Account {
+
+	int accNumber;
+	String accName;
+	double accBal;
+	
+	
+}

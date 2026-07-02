@@ -1,0 +1,16 @@
+package day1;
+
+import java.util.HashMap;
+
+public class HashMap_Demo {
+
+	public static void main(String[] args) {
+		HashMap<Integer,String>hm=new HashMap<Integer, String>();
+		hm.put(101,"Hari");
+		hm.put(102,"Kumar");
+		hm.put(103,"Murthy");
+		System.out.println(hm);
+
+	}
+
+}

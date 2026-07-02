@@ -1,0 +1,25 @@
+package day1;
+
+public class ExceptionDemo {
+
+	public static void main(String[] args) throws InterruptedException {
+		//Upcasting
+		int intValue=100;
+		long longValue=intValue;
+		System.out.println(longValue);
+		
+		float floatVal=12.23F;
+		double doubleVal=floatVal;
+		System.out.println(doubleVal);
+		//downcasting
+		long longVal=10000;
+		int intVal=(int)longVal;
+		System.out.println(intVal);
+		double doubleValue=12.23;
+		float floatValue=(float)doubleValue;
+		System.out.println(floatVal);
+		
+		
+	}
+
+}

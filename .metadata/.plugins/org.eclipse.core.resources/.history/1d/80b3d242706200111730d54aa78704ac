@@ -1,0 +1,19 @@
+package day1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CollactionsDemo {
+
+	public static void main(String[] args) {
+		ArrayList myList=new ArrayList();
+		
+		List myList1=new ArrayList();
+		
+		ArrayList <Integer>empNos=new ArrayList<Integer>();
+		ss
+		
+
+	}
+
+}

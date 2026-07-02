@@ -1,0 +1,17 @@
+package encapsulations;
+
+public class Account {
+
+	private int accNo;
+	private String accName;
+	private double accBal;
+	
+	void setAccNo(int accNo) {
+		accNo=accNo;
+	}
+	
+	int getAccNo() {
+		return accNo;
+	}
+	
+}

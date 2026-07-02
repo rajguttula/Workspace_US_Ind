@@ -1,0 +1,14 @@
+package interface_example;
+
+interface Shape{
+	
+}
+
+public class InterfacDemo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
