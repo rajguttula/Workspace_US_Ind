@@ -13,6 +13,10 @@ class Child extends Parent{
 	void m2() {
 		System.out.println("It is m2 from child");
 	}
+	
+	void m3() {
+		System.out.println("It is m3 from child");
+	}
 }
 
 public class TypeCasting {
