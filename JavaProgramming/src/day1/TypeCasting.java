@@ -1,7 +1,7 @@
 package day1;
 
 class Parent{
-	int name="Raju";
+	int name=1234;
 	
 	void m1() {
 		System.out.println("It is m1 from parent");
