@@ -17,6 +17,13 @@ class Child extends Parent{
 	void m3() {
 		System.out.println("It is m3 from child");
 	}
+	
+	void m4() {
+		System.out.println("It is m4 from child");
+	}
+	void m5() {
+		System.out.println("It is m4 from child");
+	}
 }
 
 public class TypeCasting {
